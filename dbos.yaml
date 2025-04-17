@@ -1,6 +1,9 @@
 name: discord-bot
 language: python
 entrypoint: python bot.py
+runtimeConfig:
+  start:
+    - python main.py
 env:
   DISCORD_BOT_TOKEN: ${BOT_TOKEN}
   DBOS_DATABASE_URL: ${DATABASE_URL}
