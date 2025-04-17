@@ -1,1 +1,5 @@
-
+name: discord-bot
+entrypoint: python bot.py
+env:
+  DISCORD_BOT_TOKEN: ${BOT_TOKEN}
+  DBOS_DATABASE_URL: ${DATABASE_URL}
