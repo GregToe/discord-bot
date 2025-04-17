@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the bot token from environment variable
-TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Create a bot instance
 intents = disnake.Intents.default()
